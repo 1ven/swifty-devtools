@@ -16,6 +16,7 @@ const listenStateChange = (callback: (prev, current) => void) => {
   let prevState;
   createModel(this.props.reducer$).observe(currentState => {
     prevState = currentState;
+
     callback(prevState, currentState);
   });
 };

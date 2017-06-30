@@ -34,7 +34,7 @@
     "postpublish": "npm run clean"
   },
   "lint-staged": {
-    "*.{ts, tsx}": [
+    "*.{ts,tsx}": [
       "prettier --write",
       "git add"
     ]
