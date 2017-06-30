@@ -51,6 +51,14 @@
     ]
   },
   "peerDependencies": {
-    "react": "^15.6.1"
+    "swifty": "^0.0.6"
+  },
+  "dependencies": {
+    "jsondiffpatch": "^0.2.4",
+    "moment": "^2.18.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-json-inspector": "^7.0.1",
+    "recompose": "^0.23.5"
   }
 }
