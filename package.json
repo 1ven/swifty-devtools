@@ -9,18 +9,6 @@
     "dist",
     "lib"
   ],
-  "devDependencies": {
-    "cross-env": "^5.0.1",
-    "husky": "^0.13.4",
-    "jest": "^20.0.4",
-    "lint-staged": "^4.0.0",
-    "prettier": "^1.4.4",
-    "rimraf": "^2.6.1",
-    "ts-jest": "^20.0.6",
-    "ts-loader": "^2.1.0",
-    "typescript": "^2.3.4",
-    "webpack": "^3.0.0"
-  },
   "scripts": {
     "build": "npm run build:commonjs && npm run build:umd && npm run build:umd:min",
     "build:commonjs": "tsc --project . --outDir ./lib",
@@ -50,9 +38,6 @@
       "js"
     ]
   },
-  "peerDependencies": {
-    "swifty": "^0.0.6"
-  },
   "dependencies": {
     "jsondiffpatch": "^0.2.4",
     "moment": "^2.18.1",
@@ -60,5 +45,20 @@
     "react-dom": "^15.6.1",
     "react-json-inspector": "^7.0.1",
     "recompose": "^0.23.5"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "css-loader": "^0.28.4",
+    "husky": "^0.13.4",
+    "jest": "^20.0.4",
+    "lint-staged": "^4.0.0",
+    "prettier": "^1.4.4",
+    "rimraf": "^2.6.1",
+    "style-loader": "^0.18.2",
+    "swifty": "^0.0.6",
+    "ts-jest": "^20.0.6",
+    "ts-loader": "^2.1.0",
+    "typescript": "^2.3.4",
+    "webpack": "^3.0.0"
   }
 }

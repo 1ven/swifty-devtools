@@ -5,7 +5,7 @@ import DevTools from "./DevTools";
 const createHtmlNode = () => {
   const node = document.createElement("div");
   node.setAttribute("id", "swifty-logger");
-  document.body.append(node);
+  document.body.appendChild(node);
 
   return node;
 };
